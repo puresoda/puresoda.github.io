@@ -46,10 +46,25 @@ body {
     transform: translate(-50%, -50%);
 }
 
-img {
+img#profile {
     border-radius: 50%;
     width: 20%;
     height: auto;
     filter: blur(0.2px); /* Original image was too sharp*/
   }
-  
+
+#links {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#links li {
+    display: inline;
+    padding: 3px;
+}
+
+#link:hover {
+    opacity: 0.4;
+}
