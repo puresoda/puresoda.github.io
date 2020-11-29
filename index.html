@@ -1,40 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/tools.js"></script>
-    <head>
-        <title>Jonathan Nguyen - Personal Website</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+<head>
+    <title>Jonathan Nguyen - Personal Website</title>
 
-        <!-- Formatting -->
-        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-        <link rel="stylesheet" type=text/css href="css/main.css">
+    <!-- Formatting -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" type=text/css href="css/main.css">
 
-        <!-- Metadata-->
-        <meta name="author" content="Jonathan Nguyen">
-        <meta name="description" 
+    <!-- Metadata-->
+    <meta name="author" content="Jonathan Nguyen">
+    <meta name="description"
         content="My name is Jonathan Nguyen, an Eletrcial Engineering graduate student at UCLA. My area of interest is in digital communications, mainly channel coding and information theory.">
-    </head>
+</head>
 
-    <body>
-        <div class="background">
-            <div class="background_filter"></div>
-        </div>
+<body>
+    <div class="background">
+        <div class="background_filter"></div>
+    </div>
 
-        <div class="background-text">
-            <h1>Jonathan Nguyen</h1>
-            <p>Electrical Engineer</p>
+    <div class="background-text">
+        <h1>Jonathan Nguyen</h1>
+        <p>Electrical Engineer</p>
 
-            <img id="profile" src="images/jonathan_pic.jpg" title="Me!">
-            <br>
+        <img id="profile" src="images/jonathan_pic.jpg" title="Me!">
+        <br>
 
-            <ul id="links">
-                <li id="link"><a href="https://github.com/puresoda" title="Github">
+        <ul id="links">
+            <li id="link"><a href="https://github.com/puresoda" title="Github">
                     <img src="icons/github.png" style="height:50px;width:50px;"></a></li>
-                <li id="link"><a href="https://www.linkedin.com/in/jonvunguyen" title="Linkedin">
+            <li id="link"><a href="https://www.linkedin.com/in/jonvunguyen" title="Linkedin">
                     <img src="icons/linkedin.png" style="height:50px;width:auto;"></a></li>
-                <li id="link"><a href="Jonathan_Resume.pdf" title="Resume">
+            <li id="link"><a href="Jonathan_Resume.pdf" title="Resume">
                     <img src="icons/document.png" style="height:50px;width:auto;"></a></li>
-            </ul>
-        </div>
-    </body>
+        </ul>
+    </div>
+
+    <!-- Footer to display copyright and to trigger the anniversary scavenger hunt -->
+    <div class="footer">
+        <p onclick="triggerHidden()">© Jonathan Nguyen</p>
+    </div>
+
+    <!-- Password prompt for the scavenger hunt -->
+    <div class="hidden">
+        <p>Enter the password:</p>
+        <form id="login-form" name="login-form">
+            <input type="text" name="password" id="password" class="hidden" placeholder="Password" />
+        </form>
+    </div>
+
+    <!-- Rules for the scavenger hunt (initially not shown) -->
+    <div class="secret">
+        <h1>Welcome to the Scavenger Hunt</h1>
+        <p>Here are Some Guidelines</p>
+
+        <ol id="rules">
+            <li id="rule">All answers will be in camel case.</li>
+            <li id="rule">Answering a question will also give a hidden password to be used at the end.</li>
+            <li id="rule">Write down those passwords somewhere!</li>
+        </ol>
+    </div>
+
+    <button type="button" id=Continue class="secret" >Next</button>
+
+    <!-- Script must be loaded after the elemts that use it -->
+    <script src="js/tools.js"></script>
+</body>
+
 </html>
