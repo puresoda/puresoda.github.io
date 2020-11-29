@@ -1,0 +1,55 @@
+body {
+    color: #e6e6e6;
+    font-family: "Roboto", sans-serif;
+    font-size: 14pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.background {
+    background-image: url("../images/cabo_bg.jpg");
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* Sizing Adjustments */
+    height: auto;
+    width: 100%;
+
+    /* Position adjustments */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+
+.background_filter {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: contrast(125%) blur(4px);
+    height: 100vh;
+    width: 100%
+}
+
+.background-text {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-weight: bold;
+    border: 3px solid whitesmoke;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    border-radius: 50%;
+    width: 20%;
+    height: auto;
+    filter: blur(0.2px); /* Original image was too sharp*/
+  }
+  
