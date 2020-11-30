@@ -98,7 +98,8 @@ img#profile {
     border-radius: 50%;
     width: 20%;
     height: auto;
-    filter: blur(0.2px);     /* Original image was too sharp*/
+    filter: blur(0.2px);
+    /* Original image was too sharp*/
 }
 
 #links {
@@ -131,7 +132,6 @@ img#profile {
     text-transform: none;
     letter-spacing: 0.2em;
     text-align: left;
-
 }
 
 .footer {
