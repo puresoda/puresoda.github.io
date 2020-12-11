@@ -3,7 +3,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <head>
-    <title>Anniversay Scavenger Hunt</title>
+    <title>Anniversary Scavenger Hunt</title>
 
     <!-- Formatting -->
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
@@ -30,10 +30,17 @@
 
         <div class="user-input background-text">
             <p id="question-text">What milk tea shop did we go to?</p>
-            <form id="login-form" name="login-form">
+            <form id="login-form" name="login-form" onsubmit="return false;">
                 <input type="text" name="password" id="password" placeholder="Password" />
             </form>
         </div>
+    </div>
+
+    <div class="hint-container">
+        <div class="hint background-text">
+            <p id="hint-text">.</p>
+        </div>
+            <button type="button" id="next" onclick="loadNextPage()">Next</button>
     </div>
 
     <!-- Footer to display copyright and to trigger the anniversary scavenger hunt -->
@@ -43,4 +50,5 @@
 
     <script src="js/game.js"></script>
 </body>
+
 </html>
