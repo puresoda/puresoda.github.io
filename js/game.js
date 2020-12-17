@@ -35,9 +35,7 @@ $(function () {  // $(document).ready shorthand
 
     // Insert the first clue, title, part, and question
     loadSequence(clues[clue_num], titles[clue_num], "Part " + String(clue_num + 1), questions[clue_num], hints[clue_num]);
-
-    $('.hint-container').hide();
-
+    
     // Fade in the elements
     var divs = document.querySelectorAll("body > div:not(.background) >div:not(.hint-container)");
     for (var i = 0; i < divs.length; i++) {
@@ -50,6 +48,8 @@ $(function () {  // $(document).ready shorthand
 
     // Start the eventListener to check the password at every keystroke
     password.addEventListener('input', validate);
+
+    $('.hint-container').hide();
 });
 
 function loadSequence(clue, title, part, question, hint) {
@@ -59,10 +59,8 @@ function loadSequence(clue, title, part, question, hint) {
     for (var i = 0; i < seq.length; i++) {
         x = document.getElementById(seq[i]);
         document.body.innerHTML = document.body.innerHTML.replace(x.innerHTML, toreplace[i]);
+        console.log(x);
     }
-
-    // Hide the hint
-    $(document.getElementsByClassName("hint-container")[0]).fadeOut(100);
 }
 
 function loadNextPage() {
