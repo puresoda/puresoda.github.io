@@ -24,7 +24,7 @@ function triggerHidden() {
 };
 
 function validate(e) {
-  if (e.target.value == "temptemp") {
+  if (e.target.value == "Abbycat") {
     // Change color to indicate correct password
     e.target.style.color = "#44E444";
     loadRules();
