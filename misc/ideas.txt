@@ -1,0 +1,113 @@
+---------------------
+MAIN PAGE
+---------------------
+1. Hub element in the center of the page
+2. Background with beach picture, maybe a bit of blur / gradient
+3. Link to github
+4. Link to linkedin
+5. Link to lab website
+6. Secret icon in the corner (cat maybe?)
+
+-------------------
+SECRET PAGE 1
+-------------------
+7. Clicking on cat will bring up password box. Want the box to fade in and out.
+8. Password: Abbymeowmeow
+9. This will lead to the second page
+
+--------------------------------------------
+| Enter the secret password:               |
+| ############################             |
+--------------------------------------------
+
+-------------------
+SECRET PAGE 2
+-------------------
+10. Welcome to the scavenger hunt page
+11. All answers will be in camel case
+12. Answering a question will also give a hidden password to be used at the end. Write down these passwords somewhere!
+12.1. If I have time, maybe store each password on the bottom right of the page in like a popup
+13. Each password will be a mushy sentence.
+14. Last page will be a montage of a bunch of couple pics.
+15. After provide the index of a word in each password
+16. Final message will be "I love you. Look behind you."
+17. Hopefully I'll have flowers and a pastry by that point.
+18. Maybe the photbook if she doesn't ask about it.
+
+--------------------------------------
+SECRET PAGE 3-8 Template
+--------------------------------------
+19. Fade in mushy text
+20. At the end prompt for password
+
+-------------------------------------------
+|         ######################          |
+|          ###################            |
+|           #################             |
+|            ###############              |
+|                                         |
+|             *Questiion*                 |
+|         #####################           |
+|                                         |
+|           *Password Prompt*             |
+|         #####################           |
+-------------------------------------------
+
+--------------------------------------------
+| Password Prompt / Question:              |
+| ############################             |
+--------------------------------------------
+
+-------------------
+SECRET PAGE 3
+-------------------
+1. Context:     Beach
+2. Question:    Which milk tea shop did we go to?
+3. Answer:      LooseLeaf
+4. Hint:        I like you more than html, css, and javascript <3.
+5. Index:       0
+
+-------------------
+SECRET PAGE 4
+-------------------
+1. Context:     Scotland
+2. Question:    What country did you almost confess to me in
+3. Answer:      Belguim
+4. Hint:        I love everything about you, from your amazing smile to the way you get shy when I compliemnt you.
+5. Index:       1
+
+-------------------
+SECRET PAGE 5
+-------------------
+1. Context:     Distance
+2. Question:    Which show did we watch in quarantine?
+3. Answer:      Avatar
+4. Hint:        I cherish every second I've gotten to spend with you and all the time I'll get in the future.
+5. Index:       9
+
+-------------------
+SECRET PAGE 6
+-------------------
+1. Context:     Davis
+2. Question:    What keychain kept popping up during our calls?
+3. Answer:      Dumpling
+4. Hint:        The way you look at me always makes me blush and gives me butterflies.
+5. Index:       3
+
+-------------------
+SECRET PAGE 7
+-------------------
+1. Context:     The Bay
+2. Question:    What flavor of milk tea do you always get? 
+3. Answer:      RoastedOolong
+4. Hint:        With everything we've been through and everything we've put behind us, I appreaciate that you were there for all of it.
+5. Index:       8
+
+-------------------
+SECRET PAGE 8
+-------------------
+1. Context:     Future
+2. Question:    What is the name of my favorite sweet and ticklish dumpling?
+3. Answer:      JodieMa
+4. Hint:        I love that you can be yourself around me and I can be myself.
+5. Index:       3
