@@ -18,10 +18,10 @@ var questions = ["What milk tea shop did we go to?",
 
 // Hints
 var hints = ["I like you more than html, css, and javascript <3.",
-    "I love everything about you, from your amazing smile to the way you get shy when I compliemnt you.",
+    "I love everything about you, from your amazing smile to the way you get shy when I compliment you.",
     "I cherish every second I've gotten to spend with you and all the time I'll get in the future.",
     "The way you look at me always makes me blush and gives me butterflies.",
-    "With everything we've been through and everything we've put behind us, I appreaciate that you were there for all of it.",
+    "With everything we've been through and everything we've put behind us, I appreciate that you were there for all of it.",
     "I love that you can be yourself around me and I can be myself."
 ];
 
@@ -46,7 +46,7 @@ clues.push("The four months from Valentine's Day until the next time we would se
 
 clues.push("Over the past 15 months that I've gotten to know you, you've been nothing but sweet, caring, smart, and cute. From the day that I fell for you at the beach, to waiting for you while you were in Scotland, to visitng you in SLO, to spending the past summer with you, my time with you has been nothing short of amazing. Every day I get to spend with you is one that I treasure and look foward to. After all the waiting we've both done for each other, I'm so happy to finally be in the same place as you again. No matter where life takes us or throws our way, I know we'll both be able to handle it together. I'll always be there to support you and I appreaciate all the support you've given me. Your care and support has gotten me through a lot and the past year wouldn't have been as fun and successful without you. From the bottom of my heart, thank you so much for everything you've done for me. You've motivated me to study harder at school, be more productive at my internship, and learn so much. This website with its js, css, html, and git elements was made because you supported me throughout everything! I got my summer internship with Astranis because you helped me look for jobs. In return for everything you've done, I've always tried my best to support you back. I hope you've enjoyed every milk tea, green waffle, and mochi I've given you. I'll always be there for every long day at work, every period, and anything else that may happen. I care so much about you and I want you to know that you'll never have to face life alone anymore. Happy anniversary, I hope you enjoyed the scavenger hunt! I had a lot of fun making this. Wo ai ni.");
 
-clues.push("Look at the clues that you got from each part. Take the jth word from each clue (start from 0): <br><br>0 1 9 3 8 3");
+clues.push("Look at the clues that you got from each part. Take the jth word from each clue (start from 0): <br><br>0 1 9 3 9 3");
 
 $(function () {  // $(document).ready shorthand
 
